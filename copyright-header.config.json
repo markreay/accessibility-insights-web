@@ -18,6 +18,7 @@
         "./test-results",
         ".gitattribute",
         ".gitattributes",
+        ".ignoredRevs",
         "**/.DS_Store",
         "**/*.scss.d.ts",
         "**/*.snap",
