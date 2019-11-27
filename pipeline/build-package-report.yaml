@@ -54,6 +54,6 @@ jobs:
 
           - task: Npm@1
             inputs:
-              command: 'publish'
-              publishEndpoint: 'npmjs.com (markreay)'
-              workingDir: '$(System.DefaultWorkingDirectory)/package/report/drop'
+                command: 'publish'
+                publishEndpoint: 'npmjs.com (markreay)'
+                workingDir: '$(System.DefaultWorkingDirectory)/package/report/drop'
