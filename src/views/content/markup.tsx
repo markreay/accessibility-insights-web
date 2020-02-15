@@ -43,7 +43,9 @@ export type Markup = {
     Include: React.FC<{ content: ContentPageComponent }>;
 };
 
-export type MarkupDeps = { contentActionMessageCreator: ContentActionMessageCreator };
+export type MarkupDeps = {
+    contentActionMessageCreator: Pick<ContentActionMessageCreator, 'openContentHyperLink'>,
+};
 
 export const createMarkup = (deps: MarkupDeps, options: ContentPageOptions) => {
     const { openContentHyperLink } = deps.contentActionMessageCreator;
