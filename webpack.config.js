@@ -183,7 +183,7 @@ const packageReportConfig = {
 
 const packageUIConfig = {
     entry: {
-        ui: [path.resolve(__dirname, 'src/export/accessibility-insights-ui/index.ts')],
+        ui: [path.resolve(__dirname, 'src/packages/accessibility-insights-ui/index.ts')],
     },
     module: { rules: [tsRule, scssRule(false)] },
     externals: [nodeExternals()],

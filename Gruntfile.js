@@ -150,11 +150,11 @@ module.exports = function (grunt) {
                     },
                     {
                         cwd: '.',
-                        src: './src/export/accessibility-insights-ui/accessibilityInsightsUI.d.ts',
+                        src: './src/packages/accessibility-insights-ui/accessibilityInsightsUI.d.ts',
                         dest: path.join(packageUIDropPath, 'index.d.ts'),
                     },
                     {
-                        cwd: './src/export/accessibility-insights-ui/root',
+                        cwd: './src/packages/accessibility-insights-ui/root',
                         src: '*',
                         dest: packageUIDropPath,
                         expand: true,
